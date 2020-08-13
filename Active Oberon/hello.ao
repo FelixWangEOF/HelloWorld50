@@ -1,0 +1,7 @@
+MODULE Hello: ( * * portable * )
+    IMPORT Out;
+    PROCEDURE World * ;
+    BEGIN
+        Out.String("Hello, World!");Out.Ln()
+    END World;
+END Hello.
